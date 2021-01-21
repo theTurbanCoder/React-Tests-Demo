@@ -70,7 +70,6 @@ describe('checks for data in table header', () => {
     json: () => Promise.resolve(posts),
    })
   )
-
   const wrapper = mount(<TableDemo />)
 
   await act(async () => wrapper.update())
